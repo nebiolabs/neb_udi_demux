@@ -1,0 +1,22 @@
+[arrangement]
+name = "E6443"
+kit = "E6443"
+mask1_front = "CTCCAGTCAC"
+mask1_rear  = "ATCTCGTATG"
+mask2_front = "AGATCTACAC"
+mask2_rear  = "ACACTCTTTC"
+barcode1_pattern = "E6443-i7-%03i"
+barcode2_pattern = "E6443-i5-%03i"
+first_index = 1
+last_index  = 96
+
+[scoring]
+max_barcode_penalty    = 5
+barcode_end_proximity  = 75
+min_barcode_penalty_dist = 2
+min_separation_only_dist = 6
+flank_left_pad         = 10
+flank_right_pad        = 10
+front_barcode_window   = 175
+rear_barcode_window    = 175
+min_flank_score        = 0.5
